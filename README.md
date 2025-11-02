@@ -34,9 +34,10 @@ The market data is organized into three main categories:
 - Online Retail Channels
 - Other
 
-### Data Format
+### Documentation
 
-The market structure is available in JSON format in the file `za-pro-skincare-market.json`.
+- **Detailed Analysis**: See [south_africa_skincare.md](south_africa_skincare.md) for comprehensive market segmentation details
+- **Data Format**: The market structure is available in JSON format in `za-pro-skincare-market.json`
 
 ### Usage
 
@@ -46,4 +47,7 @@ cat za-pro-skincare-market.json
 
 # Pretty print the JSON
 python3 -m json.tool za-pro-skincare-market.json
+
+# Read detailed market analysis
+cat south_africa_skincare.md
 ```
