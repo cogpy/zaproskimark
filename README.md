@@ -1,38 +1,50 @@
 # zaproskimark
 
-## ZA - Pro Skincare Market
+## South Africa Skincare Product Market
 
-This repository contains structured data for the South African Pro Skincare Market analysis.
+This repository contains structured data for the South African Skincare Product Market analysis.
 
-### Market Structure
+### Market Overview
 
-The market data is organized into three main categories:
+Professional skincare products are formulated with pH-adjusted (active) ingredients to support the skin's natural protective barrier, a vital layer that helps protect the skin from environmental stressors and prevents moisture loss.
 
-#### 1. By Type
-- **Face Care**
-  - Cleansers & Exfoliators
+### Market Segmentation
+
+The market data is organized into five main segments:
+
+#### 1. Product Type
+- **Facial Care Products**
+  - Cleansers
+  - Moisturizers and creams
+  - Serums and Essence
+  - Toners
   - Face Masks
-  - Face Moisturizers
-  - Other Face Care Products
-- **Body Care**
-  - Body Lotions/Moisturizers
-  - Body Wash and Shower Gel
+  - Other Facial Care Products
+- **Body Care Products**
+  - Body Lotion
+  - Foot and Hand Cream
   - Other Body Care Products
+- **Lip Care Products**
 
-#### 2. By Packaging Type
-- Tube
-- Bottles
-- Jars
+#### 2. Category
+- Mass
+- Luxury/Premium
 
-#### 3. By Distribution Channel
-- Offline Retail Stores
+#### 3. End User
+- Men
+- Women
+- Kids/Children
+
+#### 4. Ingredient Type
+- Conventional
+- Natural/Organic
+
+#### 5. Distribution Channels
+- Supermarkets/Hypermarkets
+- Convenience Stores
+- Specialist Stores
 - Online Retail Stores
-- Specialist Retail
-- Super-/Hyper-markets
-- Convenience/Grocery
-- Pharmacies/Drug
-- Online Retail Channels
-- Other
+- Other Distribution Channels
 
 ### Documentation
 
@@ -51,3 +63,7 @@ python3 -m json.tool za-pro-skincare-market.json
 # Read detailed market analysis
 cat south_africa_skincare.md
 ```
+
+### Market Sizing
+
+The market sizing has been done in value terms in USD for all the abovementioned segments.

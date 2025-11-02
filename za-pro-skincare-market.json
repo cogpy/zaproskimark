@@ -1,48 +1,67 @@
 {
-  "market": "ZA - Pro Skincare Market",
-  "categories": {
-    "byType": {
-      "name": "By Type",
-      "segments": {
-        "faceCare": {
-          "name": "Face Care",
+  "market": "South Africa Skincare Product Market",
+  "description": "Professional skincare products are formulated with pH-adjusted (active) ingredients to support the skin's natural protective barrier, a vital layer that helps protect the skin from environmental stressors and prevents moisture loss.",
+  "segments": {
+    "productType": {
+      "name": "Product Type",
+      "categories": {
+        "facialCareProducts": {
+          "name": "Facial Care Products",
           "products": [
-            "Cleansers & Exfoliators",
+            "Cleansers",
+            "Moisturizers and creams",
+            "Serums and Essence",
+            "Toners",
             "Face Masks",
-            "Face Moisturizers",
-            "Other Face Care Products"
+            "Other Facial Care Products"
           ]
         },
-        "bodyCare": {
-          "name": "Body Care",
+        "bodyCareProducts": {
+          "name": "Body Care Products",
           "products": [
-            "Body Lotions/Moisturizers",
-            "Body Wash and Shower Gel",
+            "Body Lotion",
+            "Foot and Hand Cream",
             "Other Body Care Products"
           ]
+        },
+        "lipCareProducts": {
+          "name": "Lip Care Products",
+          "products": []
         }
       }
     },
-    "byPackagingType": {
-      "name": "By Packaging Type",
+    "category": {
+      "name": "Category",
       "types": [
-        "Tube",
-        "Bottles",
-        "Jars"
+        "Mass",
+        "Luxury/Premium"
       ]
     },
-    "byDistributionChannel": {
-      "name": "By Distribution Channel",
+    "endUser": {
+      "name": "End User",
+      "segments": [
+        "Men",
+        "Women",
+        "Kids/Children"
+      ]
+    },
+    "ingredientType": {
+      "name": "Ingredient Type",
+      "types": [
+        "Conventional",
+        "Natural/Organic"
+      ]
+    },
+    "distributionChannels": {
+      "name": "Distribution Channels",
       "channels": [
-        "Offline Retail Stores",
+        "Supermarkets/Hypermarkets",
+        "Convenience Stores",
+        "Specialist Stores",
         "Online Retail Stores",
-        "Specialist Retail",
-        "Super-/Hyper-markets",
-        "Convenience/Grocery",
-        "Pharmacies/Drug",
-        "Online Retail Channels",
-        "Other"
+        "Other Distribution Channels"
       ]
     }
-  }
+  },
+  "note": "The market sizing has been done in value terms in USD for all the abovementioned segments."
 }
