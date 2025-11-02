@@ -1,0 +1,48 @@
+{
+  "market": "ZA - Pro Skincare Market",
+  "categories": {
+    "byType": {
+      "name": "By Type",
+      "segments": {
+        "faceCare": {
+          "name": "Face Care",
+          "products": [
+            "Cleansers & Exfoliators",
+            "Face Masks",
+            "Face Moisturizers",
+            "Other Face Care Products"
+          ]
+        },
+        "bodyCare": {
+          "name": "Body Care",
+          "products": [
+            "Body Lotions/Moisturizers",
+            "Body Wash and Shower Gel",
+            "Other Body Care Products"
+          ]
+        }
+      }
+    },
+    "byPackagingType": {
+      "name": "By Packaging Type",
+      "types": [
+        "Tube",
+        "Bottles",
+        "Jars"
+      ]
+    },
+    "byDistributionChannel": {
+      "name": "By Distribution Channel",
+      "channels": [
+        "Offline Retail Stores",
+        "Online Retail Stores",
+        "Specialist Retail",
+        "Super-/Hyper-markets",
+        "Convenience/Grocery",
+        "Pharmacies/Drug",
+        "Online Retail Channels",
+        "Other"
+      ]
+    }
+  }
+}
